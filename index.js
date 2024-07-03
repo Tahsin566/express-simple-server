@@ -16,7 +16,7 @@ let arr = [
 ]
 
 app.get('/',(req,res)=>{
-    res.send('Hello Simple app express')
+    res.send('Hello Simple app express,this server has /json,/arr,/ for get request and /post for post request')
 })
 
 app.get('/json',(req,res)=>{
